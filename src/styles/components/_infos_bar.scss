@@ -2,20 +2,23 @@
 
 .infos-bar {
     padding: 16px 24px;
-    background-color: variables.$textColor;
+    // ALTERAÇÃO: Fundo escuro para a barra de informações
+    background-color: variables.$bat-accent; 
     display: flex;
     justify-content: space-between;
-    
+        
     &__infos {
         display: flex;
         gap: 40px;
 
         &__item {
             font-size: 14px;
-            color: variables.$secondaryTextColor;
+            // ALTERAÇÃO: Texto claro sobre o fundo escuro
+            color: variables.$gotham-light; 
 
             b {
-                color: variables.$secondaryTextColor;
+                // ALTERAÇÃO: Título (negrito) em Amarelo/Dourado do Bat-Sinal para destaque
+                color: variables.$bat-yellow; 
                 font-size: 18px;
                 display: block;
             }
